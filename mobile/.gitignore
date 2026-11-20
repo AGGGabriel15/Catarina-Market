@@ -45,3 +45,8 @@ example
 # Llave privada de Firebase (cuenta de servicio para push): NUNCA al repo; se sube solo a EAS.
 *firebase-adminsdk*.json
 service-account*.json
+
+# Config de Firebase de la app (trae la API key de Android). No va al repo:
+# en EAS se pasa como variable de tipo archivo GOOGLE_SERVICES_JSON (ver app.config.js).
+google-services.json
+GoogleService-Info.plist
